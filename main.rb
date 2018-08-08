@@ -228,7 +228,7 @@ while choise != 'stop' do
         puts "#{t.number.to_s.rjust(9, ' ')}" \
           "#{t.type.rjust(8, ' ')}" \
           "#{t.cars_count.to_s.rjust(9, ' ')}" \
-          "#{t.company_name.to_s.rjust(17, ' ')}    " \
+          "#{t.company_name.to_s.rjust(17, ' ')}     " \
           "#{rr}"
       end
 

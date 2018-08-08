@@ -10,7 +10,8 @@ class Car
   end
 
   def validate!
-    raise 'Status must be true or false (used/unused)' if status.is_a? Boolean
+    puts "__#{status.inspect}+#{(!!status).inspect}"
+    raise 'Status must be true or false (used/unused)' unless !!status == status
     true
   end
 
